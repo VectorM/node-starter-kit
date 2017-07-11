@@ -12,6 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "socket.io": "^2.0.3",
     "whatwg-fetch": "2.0.3"
   },
   "devDependencies": {
