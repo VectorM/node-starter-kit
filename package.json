@@ -4,7 +4,7 @@
   "description": "playground",
   "scripts": {
     "start": "npm-run-all --parallel open:src lint:watch",
-    "open:src": "babel-node app.js",
+    "open:src": "nodemon --exec babel-node app.js",
     "lint": "esw src --color",
     "lint:watch": "npm run lint -- --watch"
   },
